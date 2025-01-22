@@ -1,4 +1,4 @@
-## DATA DEFENITION LANGUAGE
+## DATA DEFINITION LANGUAGE
 
 `CREATE`: Create tiene dos usos, uno es para crear una base de datos y el otro es para crear una tabla en la base de datos.
 
