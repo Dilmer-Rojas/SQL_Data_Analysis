@@ -15,4 +15,14 @@ Por ello podemos hacer uso de:
 - Ejemplos:
 
     1. Creando una base de datos denominada `NARUTO`.
-    2. Creando una tabla denominada `PERSONAJES`.
+
+        ```sql
+        CREATE DATABASE naruto;
+        -- Estamos creando una base de datos llamada naruto
+        ```
+    2. Creando una tabla denominada `PERSONAJES_PRINCIPALES`.
+
+        ```sql
+        CREATE TABLE personajes_principales;
+        -- Estamos creando una tabla llamada personajes_principales
+        ```
