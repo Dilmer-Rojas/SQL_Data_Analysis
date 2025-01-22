@@ -23,6 +23,11 @@ Por ello podemos hacer uso de:
     2. Creando una tabla denominada `PERSONAJES_PRINCIPALES`.
 
         ```sql
-        CREATE TABLE personajes_principales;
+        CREATE TABLE personajes_principales(
+            id_personaje INT NOT NULL,
+            nombre VARCHAR(50),
+            PRIMARY KEY (id_personaje)
+        );
         -- Estamos creando una tabla llamada personajes_principales
         ```
+
