@@ -41,6 +41,16 @@ WHERE POPULATION > 100000;
 ### GROUP BY:
 Sirve para agrupar filas que tiene valores comunes en columnas especificadas.
 
+Ejemplo:
+
+- Queremos agrupa las filas por el código de país o `COUNTRYCODE`.
+
+```sql
+SELECT COUNTRYCODE
+FROM CITY
+GROUP BY COUNTRYCODE;
+-- ESTAMOS AGRUPANDO LAS FILAS POR EL CÓDIGO DE PAÍS EJEMPLO 'USA', 'JPN', ETC.
+```
 
 
 
