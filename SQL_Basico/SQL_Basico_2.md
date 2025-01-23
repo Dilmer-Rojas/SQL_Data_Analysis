@@ -6,7 +6,7 @@ Los comandos que comprende son:
 
 - `SELECT`, `FROM`, `WHERE`, `JOINs`, `GROUP BY`, `ORDER BY`, `HAVING`, `INSERT`, `UPDATE` y `DELETE`.
 
-### SELECT:
+### SELECT + FROM:
 Con este comando se utiliza para recuperar datos de una o más tablas junto con `FROM`.
 
 Ejemplo:
@@ -20,6 +20,30 @@ SELECT *
 FROM CITY;
 -- Lo que estamos haciendo es recuperar todos los datos de la tabla.
 ```
+
+Es como decir seleccionar  todos los datos de la tabla city.
+
+
+### WHERE:
+Se utiliza para filtrar registros específicos.
+
+Ejemplo:
+
+- Queremos filtrar los datos de la tabla `CITY` donde `POPULATION` sea mayor a 100000.
+
+```sql
+SELECT *
+FROM CITY
+WHERE POPULATION > 100000;
+-- Filtrará todos los datos donde la población sea mayor a diez mil.
+```
+
+### GROUP BY:
+Sirve para agrupar filas que tiene valores comunes en columnas especificadas.
+
+
+
+
 
 
 ### INSERT: 
