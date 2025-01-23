@@ -85,5 +85,8 @@ Si hacemos uso de:
 
 ```sql
 TRUNCATE TABLE personajes;
--- Lo que hará es eliminar solo los datos o registros pero menos `id_personaje`, `nombre`, `aldea`, `jutsu`, `clan` que son las columnas o campos.
+-- Lo que hará es eliminar solo los datos o registros
+-- Pero menos:
+-- `id_personaje`, `nombre`, `aldea`, `jutsu`, `clan` 
+-- que son las columnas o campos.
 ```
