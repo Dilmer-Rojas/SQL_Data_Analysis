@@ -1,4 +1,4 @@
-## DATA DEFINITION LANGUAGE
+## DATA DEFINITION LANGUAGE (DDL)
 
 ### CREATE: 
 Create tiene dos usos, uno es para crear una base de datos y el otro es para crear una tabla en la base de datos.
@@ -32,16 +32,7 @@ Por ello podemos hacer uso de:
         -- Estamos creando una tabla llamada personajes_principales
         ```
 
-### INSERT: 
-Con este comando podemos insertar datos dentro de una tabla, no es un comando DDL pero vamos a verlo.
 
-Para hacerlo hacemos uso de:
-```sql
-INSERT INTO personajes VALUES
-(1, "Naruto"),
-(2, "Sasuke"),
-(3, "Itachi");
-```
 
 
 ### ALTER:
