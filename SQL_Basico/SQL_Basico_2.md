@@ -107,14 +107,22 @@ SET POPULATION = 134966
 WHERE NAME = 'Corona';
 ```
 
+### DELETE:
+Elimina filas o registros específicos de una tabla.
+
+Ejemplo:
+
+- Queremos eliminar la fila de la tabla `CITY` donde el `NAME` es = a 'Corona'.
+
+```sql
+DELETE FROM city WHERE name = 'Corona';
+```
 
 ### INSERT: 
-Con este comando podemos insertar datos dentro de una tabla, no es un comando DDL pero vamos a verlo.
+Con este comando podemos insertar datos dentro de una tabla.
 
-Para hacerlo hacemos uso de:
+
 ```sql
-INSERT INTO personajes VALUES
-(1, "Naruto"),
-(2, "Sasuke"),
-(3, "Itachi");
+INSERT INTO city VALUES
+(4062, "datox", "datoy", "datoz", 858393);
 ```
