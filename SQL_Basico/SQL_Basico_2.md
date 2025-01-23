@@ -52,8 +52,60 @@ GROUP BY COUNTRYCODE;
 -- ESTAMOS AGRUPANDO LAS FILAS POR EL CÓDIGO DE PAÍS EJEMPLO 'USA', 'JPN', ETC.
 ```
 
+### ORDER BY:
+Sirve para ordenar los registros o filas de manera ascendente(por defecto) o descendente.
 
+Ejemplo:
 
+- Queremos ordenar los datos pero por nombre de ciudad, de manera ascendente y luego lo hacemos de manera descendente.
+
+```sql
+SELECT *
+FROM CITY
+ORDER BY name;
+-- Aquí ordenamos de manera ascendente por el nombre y por defecto
+```
+
+```sql
+SELECT *
+FROM CITY
+ORDER BY ASC name;
+-- Aquí estamos ordenando de manera ascendente pero usando ASC
+```
+
+```sql
+SELECT *
+FROM CITY
+ORDER BY DESC name;
+-- Aquí estamos ordenando de manera descendente con la palabra clave DESC
+```
+
+### HAVING
+Se usa jutamente con `GROUP BY` para agrupar y filtrar por una condición luego de aplicar una función de agregación.
+
+Ejemplo: 
+
+- Queremos agrupar los datos por `COUNTRYCODE` para luego filtrarlos mientras el promedio de `POPULATION` sea mayor a 1000000.
+
+```sql
+SELECT COUNTRYCODE, AVG(POPULATION)
+FROM CITY
+GROUP BY COUNTRYCODE
+HAVING AVG(POPULATION);
+```
+
+### UPDATE:
+Así como usamos alter para alterar o añadir campos ya existentes, `UPDATE` actualiza los registros ya existentes.
+
+Ejemplo:
+
+- Queremos ACTUALIZAR el registro `POPULATION` a 134966 de la tabla `CITY` donde `NAME` sea = a 'Corona'.
+
+```sql
+UPDATE CITY
+SET POPULATION = 134966
+WHERE NAME = 'Corona';
+```
 
 
 ### INSERT: 
