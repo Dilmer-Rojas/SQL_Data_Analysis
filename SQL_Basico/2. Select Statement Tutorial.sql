@@ -7,7 +7,7 @@ birth_date,
 age,
 age + 10
 FROM parks_and_recreation.employee_demographics;
-# PEMDAS: Quiere decir que SQL si respeta la jeranquía de signos
+-- PEMDAS: Quiere decir que SQL si respeta la jeranquía de signos
 
 
 SELECT gender
