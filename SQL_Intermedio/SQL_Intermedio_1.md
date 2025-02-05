@@ -59,7 +59,7 @@ Ejemplo:
 
     `EN RESUMEN`: Devuelve todas las filas de la primera tabla + las coincidentes en la segunda tabla y de no haber coincidencias devuelve `NULL`.
 
-### RIGHT JOIN:
+### RIGHT OUTER JOIN:
 Devuelve todas las filas de la segunda tabla que es la tabla que se nombra despues del `RIGHT JOIN` (tabla derecha) y las filas coincidentes en la primera tabla que se nombra con `FROM` (tabla izquierda). Si no hay coincidencias, las filas de la primera tabla serán `NULL`.
 
 Ejemplo:
@@ -88,7 +88,7 @@ Ejemplo:
     `EN RESUMEN`: Devuelve todas las filas de la segunda tabla + las coincidentes en la primera tabla y de no haber coincidencias devuelve `NULL`.
 
 
-### FULL JOIN:
+### FULL OUTER JOIN:
 Devuelve todas las filas de ambas tablas. Si no hay coincidencia en una tabla, las filas faltantes serán `NULL`.
 
 Ejemplo:
@@ -107,7 +107,7 @@ Ejemplo:
     ```
 
     Como resultados tendremos:
-    
+
     <img src="./src/resultFULLJOIN.png">
 
     Aquí un gráfico que explica mejor el `FULL OUTER JOIN`
