@@ -49,7 +49,8 @@ Ejemplo:
     ;
     ```
 
-    Resultado
+    Como resultados tendremos:
+
     <img src="./src/resultLEFTJOIN.png">
 
     Aquí un gráfico que explica mejor el `LEFT OUTER JOIN`
@@ -76,7 +77,8 @@ Ejemplo:
     ;
     ```
 
-    Resultado
+    Como resultados tendremos:
+
     <img src="./src/resultRIGHTJOIN.png">
 
     Aquí un gráfico que explica mejor el `RIGHT OUTER JOIN`
@@ -104,7 +106,8 @@ Ejemplo:
     ;
     ```
 
-    Resultado
+    Como resultados tendremos:
+    
     <img src="./src/resultFULLJOIN.png">
 
     Aquí un gráfico que explica mejor el `FULL OUTER JOIN`
