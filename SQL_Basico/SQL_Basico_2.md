@@ -80,6 +80,12 @@ ORDER BY DESC name;
 -- Aquí estamos ordenando de manera descendente con la palabra clave DESC
 ```
 
+```sql
+SELECT first_name, LENGTH(first_name) AS longitud
+FROM employee_demographics
+ORDER BY 2; -- Estamos haciendo un ordenamiento pero en la columna '2' es decir en la columna 'longitud'
+```
+
 ### HAVING
 Se usa jutamente con `GROUP BY` para agrupar y filtrar por una condición luego de aplicar una función de agregación.
 
