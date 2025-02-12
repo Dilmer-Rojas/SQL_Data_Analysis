@@ -2,6 +2,11 @@
 -- SUBQUERIES --
 -- ########## --
 
+SELECT *
+FROM employee_salary;
+
+
+
 SELECT * -- Seleccionamos todos los datos  
 FROM employee_demographics -- De la tabla employee_demographics  
 WHERE employee_id IN ( -- Filtramos solo los empleados cuyo ID esté en  
