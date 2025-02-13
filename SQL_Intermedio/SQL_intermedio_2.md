@@ -2,7 +2,7 @@
 
 Te permite combinar filas juntas a diferencia de los `JOINs` que unian una columna al lado de la otra.
 
-## Reglas de UNINs:
+## Reglas de UNIONs:
 
 - Tiene que haber el mismo número de columnas en ambas consultas.
 
