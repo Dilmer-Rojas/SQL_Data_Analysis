@@ -1,5 +1,5 @@
 -- ################# --
--- Windows Functions --
+-- Window Functions --
 -- ################# --
 
 SELECT gender, AVG(salary) AS avg_salary
@@ -8,7 +8,7 @@ JOIN employee_salary AS sal
 	ON dem.employee_id = sal.employee_id
 GROUP BY gender; -- Nos muestra el salario promedio para cada género
 
--- Ahora con funciones de ventana o WINDOWS FUNCTIONS
+-- Ahora con funciones de ventana o WINDOW FUNCTIONS
 SELECT dem.first_name, dem.last_name, gender, AVG(salary) OVER(PARTITION BY gender)
 FROM employee_demographics AS dem
 JOIN employee_salary AS sal

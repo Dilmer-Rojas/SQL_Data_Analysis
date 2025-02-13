@@ -1,20 +1,5 @@
 USE mini_proyecto;
 
-CREATE TABLE Empleados(
-	EmpleadoID INT,
-    PedidoID INT,
-    Nombre VARCHAR(30),
-    Salario INT
-);
-
-SELECT *
-FROM Pedidos;
-
-INSERT INTO Empleados(EmpleadoID, PedidoID, Nombre, Salario) VALUES
-(201, 102, 'Peter', 1200),
-(203, 103, 'Aliss', 1300),
-(204, 103, 'José', 1100);
-
 
 -- Vamos a mostrar los empleados donde su salario sea mayor al promedio
 -- 1ra Consulta
