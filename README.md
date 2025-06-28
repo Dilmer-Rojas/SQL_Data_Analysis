@@ -109,6 +109,7 @@ Ejemplo de comentario:
 ## 🟣 Buenas Prácticas de SQL
 
 ✅ Usa **SELECT específico** en lugar de `SELECT *`.
+
 ✅ Formatea consultas para legibilidad:
 
 ```sql
