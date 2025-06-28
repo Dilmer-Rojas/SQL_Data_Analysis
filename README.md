@@ -70,7 +70,9 @@ Organiza tu proyecto en carpetas y archivos claramente definidos. Ejemplo:
 Antes de ejecutar consultas:
 
 1️⃣ Verifica credenciales de acceso a la base de datos.
+
 2️⃣ Conoce el DBMS (MySQL, PostgreSQL, etc.).
+
 3️⃣ Configura cliente o IDE (DBeaver, DataGrip, Azure Data Studio, psql, mysql-cli).
 
 Ejemplo de conexión en CLI:
