@@ -10,7 +10,7 @@
 
 ## 📌 Tabla de Contenidos
 
-1. [Introducción](#introducción)
+1. [Introducción](##Introducción)
 2. [Estructura de Proyecto Sugerida](#estructura-de-proyecto-sugerida)
 3. [Conexión y Configuración](#conexión-y-configuración)
 4. [Nomenclatura y Organización de Consultas](#nomenclatura-y-organización-de-consultas)
