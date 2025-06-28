@@ -1,7 +1,9 @@
 # 📊 README – Guía de Uso de SQL para Analistas de Datos
 
 **Autor:** \[Tu Nombre]
+
 **Fecha:** \[Actualiza la fecha]
+
 **Propósito:** Servir como guía y plantilla de referencia para proyectos de análisis de datos usando SQL.
 
 
